@@ -1,0 +1,15 @@
+# PHP ko main language banao
+*.php linguist-language=PHP
+
+# JS, TS, CSS, HTML ko bhi count karo
+*.js linguist-language=JavaScript
+*.ts linguist-language=TypeScript  
+*.css linguist-language=CSS
+*.html linguist-language=HTML
+
+# Lekin node_modules aur vendor ko count mat karo
+node_modules/ linguist-vendored
+vendor/ linguist-vendored
+dist/ linguist-vendored
+build/ linguist-vendored
+*.min.js linguist-generated=true
